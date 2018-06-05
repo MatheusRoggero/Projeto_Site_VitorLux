@@ -1,0 +1,75 @@
+a {
+    text-decoration: none;
+    text-align:center;
+    color:#f2f2f2;
+    padding: 10px;
+}
+li {
+    background: #5c5c8a;
+    border-radius:5px;
+
+    text-align:center;
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html, body {
+    height: 99%;
+    font-family: 'Playfair Display', serif;
+}
+
+header#top, footer#footer {
+    border: 1px solid gray;
+    text-align: center;
+    background-color: #4e6daa;
+    clear: both;
+}
+
+nav#menu {
+    height: 70%;
+    float: left;
+    border: 1px solid gray;
+    background-color:  #b3b3ff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1em;
+}
+
+article.content {
+    height: 70%;
+    border: 1px solid gray;
+    padding: 1em;
+    overflow: scroll;
+    background-color: #cedaed;
+}
+
+h2#vacum {
+    color: blue;
+}
+
+h2#polystation {
+    color: orange;
+}
+
+h2#vitation {
+    color: green;
+}
+
+.prod_p {
+    text-align: center;
+}
+
+.img_p {
+   max-height: 30%;
+   max-width: 30%;
+   border: 1px solid grey;
+}
+
+.desc_p {
+    text-align: justify;
+    
+}
+
+
